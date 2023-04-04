@@ -4,10 +4,6 @@ import './TodoForm.css';
 
 const TodoForm = ({ todos, setTodos }) => {
 
-    // window.addEventListener('load', () => {
-    //     localStorage.setItem('todos', JSON.stringify(todos))
-    // })
-
     let [text, setText] = useState('');
 
     let addText = useCallback((evt) => {
@@ -16,9 +12,6 @@ const TodoForm = ({ todos, setTodos }) => {
     }, [text])
 
     let onAdd = (text) => {
-
-        localStorage.setItem('todos', JSON.stringify(todos))
-
         setTodos([
             ...todos,
             {
