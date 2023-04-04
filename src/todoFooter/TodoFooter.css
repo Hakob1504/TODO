@@ -1,0 +1,17 @@
+.completed{
+    color: darkcyan;
+}
+.clearCompleted{
+    color: darkcyan;
+    border-color: darkcyan;
+}
+.clearCompleted:hover{
+    background-color: darkcyan;
+    border-color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 12px;
+}

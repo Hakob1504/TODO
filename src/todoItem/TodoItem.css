@@ -1,0 +1,12 @@
+.itemDiv{
+    border: 2px solid darkcyan;
+}
+.form-check-input{
+    border-color: darkcyan;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+.itemName{
+    color: darkcyan;
+}

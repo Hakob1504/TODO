@@ -1,0 +1,19 @@
+#search{
+    border-color: darkcyan;
+    color: darkcyan;
+}
+#search:focus{
+    box-shadow: none;
+    border-color: darkcyan;
+}
+#search::placeholder{
+    color: darkcyan;
+}
+.add{
+    color: darkcyan;
+    border-color: darkcyan;
+}
+.add:hover{
+    background-color: darkcyan;
+    border-color: white;
+}
